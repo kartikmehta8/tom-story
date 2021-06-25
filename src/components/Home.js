@@ -29,7 +29,7 @@ class Home extends Component {
 			<div className='container home'>
 				<h4 className='center brand-logo'>Home</h4>
 				{postList}
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 		);
 	}
