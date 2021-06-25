@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 import { connect } from 'react-redux';
 import Tom from '../tom.jpg';
 
@@ -29,7 +28,6 @@ class Home extends Component {
 			<div className='container home'>
 				<h4 className='center brand-logo'>Home</h4>
 				{postList}
-				{/* <Footer /> */}
 			</div>
 		);
 	}
