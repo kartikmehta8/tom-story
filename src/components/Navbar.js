@@ -8,7 +8,7 @@ const Navbar = () => {
 				<a className='brand-logo'>Tom's Story</a>
 				<ul className='right'>
 					<li>
-						<Link to='/tom-story'>Home</Link>
+						<Link to='/'>Home</Link>
 					</li>
 					<li>
 						<Link to='/about'>About</Link>
